@@ -1,154 +1,607 @@
+html, body {
+	height: 100%;
+}
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #363636;
+}
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Liberdade em jogo - a imprensa no Mundo</title>
-<meta name="keywords" content="Liberdade de impresa, jornalismo, conflitos;" />
-<meta name="description" content="Panorama da imprensa no mundo;" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,300" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
-<!--[if IE 6]>
-<link href="default_ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
 
-<!-- COLOQUEM AQUI OS METAS DE VOCÊS PARA REDES SOCIAIS-->
+p, ol, ul {
+	margin-top: 0px;
+}
 
-<meta property="og:title" content="Liberdade em jogo - a imprensa no Mundo" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://voltdata.info" />
-<meta property="og:image" content="" />
-<meta property=”og:description” content="" />
-</head>
-<body>
-<div id="wrapper">
-	<div id="menu-wrapper">
-		<div id="menu" class="container">
-			<ul>
-				<li style="padding:"><a href="http://voltdata.info"><img src="http://static1.squarespace.com/static/551da417e4b05f67005d6abe/t/551dadd4e4b095e92c168eba/1442953895719/?format=1500w" alt="Logo do Volt" width="80px"> </a></li>
-				<li><a href="#"> Sobre nós</a></li>
-				<li><a href="#"> O projeto</a></li>
-				<li><a href="#">Notícias</a></li>
-				<li><a href="#">Contato</a></li>
-			</ul>
-		</div>
-		<!-- FIM DO #menu --> 
-        
-        
-	</div>
-	
-	<!-- LEMBREM QUE A IMAGEM DO BANNER, PARA FICAR GRANDE E BONITA, ESTÁ NO CSS SOB O ID "BANNER"-->
-	
-	<div id="banner">
-	
-	<h1>Liberdade em jogo - a imprensa no Mundo</h1>
-				<p>Um projeto de <a href="http://templated.co" rel="nofollow">Volt Data Lab</a></p>
-	
-	</div>
-	
-	
-	<div id="page" class="container">
-		<div id="content">
-			<div class="title">
-				<h2>Em busca da notícia </h2>
-				<span class="byline">Curitiba 24/09/2015</span> </div>
-			<p> Este é um compêndio de estado da liberdade de imprensa de cada país e as pontuações publicadas no estudo anual da Freedom House Liberdade de Imprensa. Para este estudo foi fechado o foco entre os anos de 1995 e 2015. De acordo com a metodologia empregada na medição, a pontuação varia de 0 a 100, sendo:<br>
-                
-<br>                
-Livre: 0-30 <br>
-Parcialmente Livre: 31-60 <br>
-Não livre: 61-100 <br>
-<br>               
-                
-Dos oito países selecionados para esta matéria apenas Alemanha e Estados Unidos podem ser considerados países com liberdade de expressão entre 1995 e 2015. Curiosamente, pela metodologia adotada o Brasil foi um país com liberdade de expressão apenas em 1995 onde seu score era de 30 pontos, sendo que nos anos subsequentes houve uma piora significativa em termos de liberdade de expressão. </p>
-                
-            <p> Até mesmo a Indonésia que em 1995 era considerada como onde não existia liberdade de expressão evoluiu até que em 2015 possui praticamente a mesma pontuação brasileira para este quesito.
-Importante ressaltar que com exceção da Indonésia que melhora seu índice de liberdade de expressão e a Alemanha que o mantém estável, os demais países apresentam significativa piora de liberdade de expressão. </p>
-            
-<div><img src="https://c1.staticflickr.com/1/760/21067122574_ddf2cb62f3_b.jpg" width= "100%">
-            
-            
- </div>
+p {
+	line-height: 190%;
+}
 
-            <p> Até mesmo a Indonésia que em 1995 era considerada como onde não existia liberdade de expressão evoluiu até que em 2015 possui praticamente a mesma pontuação brasileira para este quesito. Importante ressaltar que com exceção da Indonésia que melhora seu índice de liberdade de expressão e a Alemanha que o mantém estável, os demais países apresentam significativa piora de liberdade de expressão. </p>
-            
-            
-                
-<div> <img src="http://portal.comunique-se.com.br/images/0-0-0-violencia2910.jpg">
-    <p>
-    Crédito da Imagem: Rodrigo Paiva</p>
-            </div>
-            
-            <br>
-            <br>
-            
-<p> Este é um compêndio de estado da liberdade de imprensa de cada país e as pontuações publicadas no estudo anual da Freedom House Liberdade de Imprensa. Para este estudo foi fechado o foco entre os anos de 1995 e 2015. De acordo com a metodologia empregada na medição, a pontuação varia de 0 a 100.<br>
-			
-    <iframe src="https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/2d2d3d0023ce56af669be188bf8b2567/liberdade-de-imprensa/index.html" frameborder="0" width="100%" height="800"></iframe>
+strong {
+}
+
+a {
+	color: #a7002c;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+		.image img
+		{
+			display: block;
+			width: 100%;
+		}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+		.image-centered img
+		{
+			margin: 0 auto;
+			width: auto;
+		}
+
+hr {
+	display: none;
+}
+
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style1 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style1 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	ul.style2
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 1.5em 0em 2.5em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: #cbcbcb;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+/** WRAPPER */
+
+#wrapper {
+	background: #FFFFFF url(images/bg01.png) repeat;
+}
+
+#footer-wrapper
+{
+	background: #0F0F0F;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+#header-wrapper
+{
+	overflow: hidden;
+	background: url(images/bg01.png) repeat;
+	background-size: 100%;
+	padding: 1em 0em 1em 0em;
+	background: #fff;
+}
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header 
+	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo 
+	{
+		width: 500px;
+		max-height: 70px;
+		margin: 0 auto;
+		padding: 1em 0em;
+		text-transform: uppercase;
+		background-color: #fff;
+	}
+	
+	#logo h1
+	{
+		letter-spacing: 0.10em;
+		font-size: 3em;
+	}
+	
+	#logo p 
+	{
+		letter-spacing: 0.10em;
+		color: #FFF;
+	}
+	
+	#logo a 
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner 
+	{
+		overflow: hidden;
+		max-height: 300px;
+		background: url("https://images.unsplash.com/photo-1417577354685-3ab67e9716a3?q=80&fm=jpg&s=e55ecb450065462c478035c5f1822a10") no-repeat center;
+		background-size: cover;
+		text-align: center;
+		color: #fff;
+		padding: 20% 20%;
+        background-attachment: relative; 
+        height: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+        margin: -60px 0 0;
+        /* TIRE A MARGEM DE CIMA PARA COLOCAR UM PANO DE FUNDO NO MENU */
+	}
+	
+	#banner .image
+	{
+	}
+
+    #banner h1{
+        font-size: 5em;
+        background-color: rgba(0,0,0,0.2);
+        padding:20px;
+}
+	#banner p{
+        font-size: 1.5em;
+        background-color: rgba(0,0,0,0.2);
+        padding:2px;
+}
+
+/** MENU */
+
+#menu-wrapper
+{
+	background: #a7002c;
+}
+
+#menu {
+	overflow: hidden;
+	height: 50px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	padding: 0px 30px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 50px;
+    font-weight: 800
+	border: none;
+	color: #FFF;
     
-		</div>
-		<div id="sidebar">
-			<div class="box2">
-				<div class="title">
-					<h2>Leia mais sobre o assunto:</h2>
-				</div>
-				<ul class="style2">
-					<li><a href="http://www.lejournalinternational.fr/Balanco-da-liberdade-de-imprensa-no-mundo_a2341.html" target="_blank"> A liberdade de imprensa no mundo - Le Journal Internacional</a></li>
-					<li><a href="http://exame.abril.com.br/mundo/noticias/os-20-paises-com-menos-liberdade-de-imprensa" target="_blank"> Top 20: os piores países para a imprensa trabalhar</a></li>
-					<li><a href="http://www.portugues.rfi.fr/tag/reporteres-sem-fronteiras" target="_blank">Repórteres sem fronteiras</a></li>
-					<li><a href="http://www.unesco.org/new/pt/brasilia/about-this-office/single-view/news/let_journalism_thrive_world_press_freedom_day_3_may_2015/#.VgSJkctViko" target="_blank"> Dia Mundial da Liberdade de Imprensa</a></li>
-                    
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-	
-<div id="footer-wrapper">
-	<div id="footer" class="container">
-		<div id="box1">
-			<div class="title">
-				<h2>Fontes:</h2>
-			</div>
-			<ul class="style1">
-				<li><a href="#">Semper mod quis eget mi dolore</a></li>
-				<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-				<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-				<li><a href="#">Consequat etiam lorem phasellus</a></li>
-				<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-				<li><a href="#">Semper mod quisturpis nisi</a></li>
-			</ul>
-		</div>
-		<div id="box2">
-			<div class="title">
-				<h2>Pode escrever um texto aqui explicando que se trata de um projeto. Retire a lista abaixo para isso</h2>
-			</div>
-			<ul class="style1">
-				<li><a href="http://www.lejournalinternational.fr/Balanco-da-liberdade-de-imprensa-no-mundo_a2341.html" target="_blank"> A liberdade de imprensa no mundo - Le Journal Internacional</a></li>
-					<li><a href="http://exame.abril.com.br/mundo/noticias/os-20-paises-com-menos-liberdade-de-imprensa" target="_blank"> Top 20: os piores países para a imprensa trabalhar</a></li>
-					<li><a href="http://www.portugues.rfi.fr/tag/reporteres-sem-fronteiras" target="_blank">Repórteres sem fronteiras</a></li>
-					<li><a href="http://www.unesco.org/new/pt/brasilia/about-this-office/single-view/news/let_journalism_thrive_world_press_freedom_day_3_may_2015/#.VgSJkctViko" target="_blank"> Dia Mundial da Liberdade de Imprensa</a></li>
-			</ul>
-		</div>
-		<div id="box3">
-			<div class="title">
-				<h2>Compartilhem esse projeto</h2>
-			</div>
-			<p>Projeto final feito por alunos do curso de programação web básica para jornalistas, realizado pelo <a href="http://voltdata.info" target="_blank">Volt Data Lab</a></p>
-			<ul class="contact">
-				<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
-				<li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
-			</ul>
-				<a href="http://voltdata.info/curso" class="button">Saiba mais sobre o curso aqui</a> </div>
-		</div>
-	</div>
+}
 
-<div id="copyright" class="container">
-	<p> Curitiba | SET/2015 | O código-base desta página é do <a href="http://templated.co" rel="nofollow" style="color:#000;">TEMPLATED</a>.</p>
-</div>
-</body>
-</html>
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: overline;
+}
+
+#menu .current_page_item a {
+	background: #a7002c;
+}
+
+/** PAGE */
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 6em 0em 5em 0em;
+}
+
+/** CONTENT */
+
+#content
+{
+	float: left;
+	width: 790px;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: right;
+		width: 345px;
+	}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 3em;
+	}
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 1em 0em;
+		text-align: center;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.50em;
+		color: #000;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,.7);
+	}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-bottom: 1px solid #E5E5E5;
+		text-align: center;
+	}
+	
+	#welcome h2
+	{
+		letter-spacing: 0.20em;
+		text-transform: uppercase;
+		font-size: 2.6em;
+	}
+	
+	#welcome p
+	{
+		font-size: 1.3em;
+	}
+
+	#welcome .byline
+	{
+		display: block;
+		padding: 0em 0em 1.5em 0em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		background: rgba(0,0,0,.04);
+		padding: 6em 0em;
+		color: rgba(255,255,255,.7);
+	}
+	
+	#portfolio
+	{
+		overflow: hidden;
+	}
+	
+	#portfolio .title h2
+	{
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+	#portfolio .byline
+	{
+		font-size: 1em;
+		color: #EEA7C1;
+	}
+	
+	#column1,
+	#column2,
+	#column3,
+	#column4
+	{
+		width: 282px;
+	}
+	
+	#column1,
+	#column2
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	#column3
+	{
+		float: left;
+	}
+	
+	#column4
+	{
+		float: right;
+	}
+	
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 1.5em;
+		padding: 1.50em 3em 1.50em 3em;
+		background: #a7002c;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+		.button:before
+		{
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 20px;
+			text-align: center;
+			color: #FFF;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #cbcbcb;
+	}
+
+	#footer
+	{
+		color: #000;
+	}
+	
+	#footer .title h2
+	{
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+	#footer .title
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 li
+	{
+		border-color: #a7002c !important;
+	}
+	
+	#footer .style1 a
+	{
+		font-size:1em;
+		color: #000;
+	}
+	
+	#box1
+	{
+		float: left;
+		width: 354px;
+		margin-right: 24px;
+		padding-right: 30px;
+	}
+	
+	#box2
+	{
+		float: left;
+		width: 354px;
+		margin-left: 24px;
+		padding-right: 30px;
+	}
+	
+	#box3
+	{
+		float: right;
+		width: 344px;
+		padding-left: 40px;
+	}
+
+
+
+
+
+
